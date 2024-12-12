@@ -1,6 +1,6 @@
 class BT201 {
 
-String arippa(String input) {
+String kopp(String input) {
   String output = "";
   for (int i = 0; i < input.length(); i++) {
     char c = input.charAt(i);
