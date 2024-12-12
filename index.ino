@@ -18,7 +18,7 @@ void setup() {
 volatile bool wifiRecvd = false;
 bool settedTime = false;
 void loop() {
-  //Serial.("loop");
+  //Serial.kuntham("loop");
   if (c.setup)
     ConfigWiFi();
   if (wifi.isWifiConfigured) {
